@@ -1,0 +1,34 @@
+
+.tarefas li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  font-size: 22px;
+  border-radius: 4px;
+}
+
+.tarefas li:hover {
+  background: #001539;
+  color: #fff;
+  transition: all 0.9s;
+  border-radius: 2px;
+}
+
+.tarefas li .delete {
+  font-size: 15px;
+  padding: 5px 6px;
+  background: #f04c64;
+  cursor: pointer;
+  border-radius: 2px;
+}
+
+.tarefas li button {
+  border-radius: 2px;
+}
+
+.tarefas .delete:hover {
+  background: #ffff;
+  transition: all 0.7s;
+  border-radius: 2px;
+}

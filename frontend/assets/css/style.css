@@ -1,0 +1,48 @@
+:root {
+  --bg-color: #001539;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+body {
+  background-color: var(--bg-color);
+}
+
+/* .container-pai {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+} */
+
+.titulo {
+  margin-top: 5%;
+  color: #fff;
+  text-align: center;
+}
+
+.container-filho {
+  background: #fff;
+  padding: 30px;
+  margin: 50px auto;
+  max-width: 500px;
+  border-radius: 4px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+  font-size: 25px;
+}
+
+@media (max-width: 450px) {
+  .container-filho {
+    margin: 50px 20px;
+  }
+
+  .swal-modal {
+    width: 350px;
+  }
+}
