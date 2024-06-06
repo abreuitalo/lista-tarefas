@@ -9,7 +9,7 @@
 <br>
 
 <p align="center">
-  <img alt="projeto lista de tarefas" src="./src/assets/images/capa.png" width="100%">
+  <img alt="projeto lista de tarefas" src="./src/images/capa.png" width="100%">
 </p>
 
 ## 🚀 Tecnologias
